@@ -2,8 +2,8 @@ package fr.uvsq.cprog.roguelike;
 
 public enum Arme {
   BATON(" ! ", 1),
-  HACHE("?", 2),
-  PISTOLET(">", 3);
+  HACHE(" ? ", 2),
+  PISTOLET(" > ", 3);
 
   String asciiChar;
   int damage ;
